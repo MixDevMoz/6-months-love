@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>6 месяцев вместе 💖</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Сегодня нам 6 месяцев 💞</h1>
+
+    <button id="startButton">Показать таймер любви 💗</button>
+    <div id="timer" class="hidden"></div>
+    <div id="hearts"></div>
+
+    <img src="your-photo.jpg" alt="Наша фотография" class="photo">
+
+    <div class="secret-access">
+      <h2>💌 У тебя есть ключ к секрету</h2>
+      <p>Введи дату нашего знакомства (ДД.ММ.ГГГГ):</p>
+      <input type="text" id="secret-input" placeholder="например, 26.12.2024">
+      <button onclick="checkSecret()">Открыть</button>
+      <p id="error-msg" class="error"></p>
+    </div>
+
+    <div id="secret-section" class="hidden">
+      <h2>💘 Секретный раздел</h2>
+      <p>Ты нашла это место, потому что помнишь то, что для нас важно.</p>
+      <p>Я люблю тебя — и благодарен за каждый миг рядом с тобой.</p>
+      <p>💌 Ты — моё самое тёплое чудо.</p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
